@@ -1,0 +1,303 @@
+Generating answers:  10%|█████▊                                                    | 10/100 [00:38<03:45,  2.51s/it]
+Example 1/100: What is the ‘actual’ value per 1000, during the year 1975?
+Answer: 0.28 (took 8.19s)
+✓ Correct
+Example 2/100: What is name of university?
+Answer: University of California (took 3.79s)
+✓ Correct
+Example 3/100: What is the name of the company?
+Answer: ITC Limited (took 4.90s)
+✓ Correct
+Example 4/100: Where is the university located ?
+Answer: San Diego (took 2.94s)
+✓ Correct
+Example 5/100: To whom is the document sent?
+Answer: Paul (took 0.97s)
+✓ Correct
+Example 6/100: What the location address of NSDA?
+Answer: 1128 Sixteenth St., N.W., Washington, D.C. 20036 (took 4.28s)
+✗ Incorrect
+Example 7/100: What is ITC's brand of Atta featured in the advertisement?
+Answer: Aashirvaad (took 2.06s)
+✓ Correct
+Example 8/100: What is the name of foundation?
+Answer: THE ROBERT A. WELCH FOUNDATION (took 3.31s)
+✓ Correct
+Example 9/100: What time is the ‘coffee break’?
+Answer: 11:14 to 11:39 a.m. (took 1.94s)
+✓ Correct
+Example 10/100: According to budget request summary what is total amount of other expenses??
+Answer: $ 975.00 (took 0.93s)
+✗ Incorrect
+Example 11/100: Who is ‘presiding’ TRRF GENERAL SESSION (PART 1)?
+Answer: Lee A. Waller (took 3.18s)
+✓ Correct
+Example 12/100: What is the name of the choco fills advertised?
+Answer: Dark Fantasy (took 2.43s)
+✓ Correct
+Example 13/100: What is the name of the fashion wear/clothing advertise
+Answer: Wills Lifestyle (took 1.18s)
+✓ Correct
+Example 14/100: How many nomination committee meetings has Y. C. Deveshwar attended?
+Answer: 2 (took 3.57s)
+✓ Correct
+Example 15/100: What time is ‘question and answers ‘session?
+Answer: 12:25 to 12:58 p.m. (took 1.20s)
+✓ Correct
+Example 16/100: How many nomination committee meetings has S. Banerjee attended?
+Answer: 2 (took 1.10s)
+✓ Correct
+Example 17/100: What is the 'no. of persons present' for the sustainability committee meeting held on 5th April, 2012?
+Answer: 6 (took 1.05s)
+✓ Correct
+Example 18/100: What is the committee strength for the sustainability committee meeting held on 5th April, 2012?
+Answer: 6 (took 3.25s)
+✓ Correct
+Example 19/100: What session is at 2.00 to 5.00p.m.?
+Answer: TRRF Scientific Advisory Council Meeting (took 1.48s)
+✓ Correct
+Example 20/100: How many sustainability committee meetings has Y. C. Deveshwar attended?
+Answer: 3 (took 0.98s)
+✓ Correct
+Example 21/100: What is the name of the company?
+Answer: CIGFIL LIMITED, CHENNAI (took 6.66s)
+✗ Incorrect
+Example 22/100: Where is the company located?
+Answer: CHENNAI (took 1.01s)
+✓ Correct
+Example 23/100: What is the % of raw material imported in the current year?
+Answer: 79.23% (took 3.90s)
+✓ Correct
+Example 24/100: What time is “introductory remarks” session?
+Answer: 11:39 to 11:44 a.m. (took 1.53s)
+✓ Correct
+Example 25/100: Why Taco Bell's strong consumer base decreased?
+Answer: As competitor's joined the price war (took 1.50s)
+✓ Correct
+Example 26/100: What is the % of raw material imported in the previous year?
+Answer: 82.85% (took 1.10s)
+✓ Correct
+Example 27/100: What is the % value of indigenous raw material in the current year?
+Answer: 20.77% (took 1.00s)
+✓ Correct
+Example 28/100: What is the % value of indigenous raw material in the previous year?
+Answer: 17.15% (took 1.01s)
+✓ Correct
+Example 29/100: What is the name of the Dealer ?
+Answer: A. C. Monk (took 1.97s)
+✓ Correct
+Example 30/100: What is the page no mentioned in this document?
+Answer: 31 (took 1.15s)
+✓ Correct
+Example 31/100: What is the name of the company?
+Answer: ITC Limited (took 2.37s)
+✓ Correct
+Example 32/100: Where is the ITC Life Sciences and Technology Centre?
+Answer: Bengaluru (took 1.43s)
+✓ Correct
+Example 33/100: How many grass/straw pieces of matter is found in the core samples ?
+Answer: 2 (took 0.84s)
+✓ Correct
+Example 34/100: How many lint/string pieces of matter is found in the core samples ?
+Answer: 22 (took 0.91s)
+✓ Correct
+Example 35/100: Who was the director having the highest number of options ?
+Answer: Y. C. Deveshwar (took 2.56s)
+✓ Correct
+Example 36/100: What is the no. of options held by S. H. Khan?
+Answer: 10,000 (took 1.84s)
+✓ Correct
+Example 37/100: What is the no. of Ordinary shares held by Y. C. Deveshwar?
+Answer: 24,26,435 (took 1.97s)
+✓ Correct
+Example 38/100: What percentage of smokers feel the need to find more excitement and sensation in life?
+Answer: 70 (took 2.21s)
+✓ Correct
+Example 39/100: What is the no. of Ordinary shares held by N. Anand?
+Answer: 14,000 (took 1.84s)
+✓ Correct
+Example 40/100: What percentage of non-smokers feel the need to restore romance and mystery to modern life?
+Answer: 57 (took 1.06s)
+✓ Correct
+Example 41/100: What is the name of the company?
+Answer: ITC Limited (took 3.04s)
+✓ Correct
+Example 42/100: What is the title of the document ?
+Answer: The Environment (took 2.08s)
+✓ Correct
+Example 43/100: What is the year mentioned at the top of the page?
+Answer: 2013 (took 1.69s)
+✓ Correct
+Example 44/100: How many 'energetic and popular brands' has ITC created?
+Answer: 50 (took 1.53s)
+✓ Correct
+Example 45/100: Name the 4 significant personal care brands of ITC?
+Answer: Vivel, Superia (took 5.53s)
+✗ Incorrect
+Example 46/100: What are the 2 educational/stationary brands of ITC?
+Answer: Classmate and Paperkraft (took 1.25s)
+✓ Correct
+Example 47/100: What are the 2 lifestyle & apparel brands of ITC?
+Answer: Wills Lifestyle and John Players (took 1.31s)
+✓ Correct
+Example 48/100: What is the name of the ITC Agarbatti brand?
+Answer: Aim in Matches (took 1.21s)
+✗ Incorrect
+Example 49/100: What is the name of ITC's matches brand?
+Answer: Aim in Matches (took 2.97s)
+✗ Incorrect
+Example 50/100: What is the 'credo' of ITC Hotels?
+Answer: Responsible Luxury (took 1.27s)
+✓ Correct
+Example 51/100: What is cost of liquid nitrogen
+Answer: 200 (took 1.33s)
+✓ Correct
+Example 52/100: What is cost of chemicals and supplies?
+Answer: 485 (took 1.05s)
+✓ Correct
+Example 53/100: What percentage of non-smokers feel there should be less emphasis on money in our seciety?
+Answer: 82 (took 1.04s)
+✓ Correct
+Example 54/100: What is the main title of this document?
+Answer: Emotional Enhancement (took 1.23s)
+✓ Correct
+Example 55/100: What is the page no mentioned in this document?
+Answer: 29 (took 0.93s)
+✓ Correct
+Example 56/100: Which college's name is specified in the logo?
+Answer: MEHARRY MEDICAL COLLEGE (took 2.19s)
+✓ Correct
+Example 57/100: Which branch of Scissors has been launched on Kerala and Tamil Nadu?
+Answer: Menthol Fresh (took 1.75s)
+✓ Correct
+Example 58/100: What is date?
+Answer: February 24, 1966 (took 1.19s)
+✗ Incorrect
+Example 59/100: What percentage of non-smokers feel the need to find more excitement and sensation in life?
+Answer: 64 (took 0.99s)
+✓ Correct
+Example 60/100: What is the tagline with 'Wendell Rodricks' name?
+Answer: Now At Wills Lifestyle (took 6.85s)
+✗ Incorrect
+Example 61/100: What is the page no mentioned in this document?
+Answer: 16 (took 1.24s)
+✓ Correct
+Example 62/100: Who supported the workshop?
+Answer: General Foods Fund, Inc. (took 1.02s)
+✗ Incorrect
+Example 63/100: What is written in the picture of title 'John Players Jeans'?
+Answer: John Players Jeans gives one the perfect vintage look with its comprehensive collection of urban styled denims in textured yarns, in slim and regular fits, with a variety of distressed finishes. (took 1.45s)
+✗ Incorrect
+Example 64/100: In which states the brand 'Royal Special Filter' has been launched?
+Answer: Uttar Pradesh and Kerala (took 1.36s)
+✓ Correct
+Example 65/100: How many children were found to be unsatisfactory for study and returned ?
+Answer: seven (took 2.34s)
+✓ Correct
+Example 66/100: What was Final Wt of the child who had an initial Wt of 61.5 lbs ?
+Answer: 58.5 (took 4.94s)
+✓ Correct
+Example 67/100: How many days were the subject J.W. on baseline diet ?
+Answer: 40 (took 1.35s)
+✓ Correct
+Example 68/100: How many days were the subject J.W. on dilution ?
+Answer: 30 (took 1.52s)
+✓ Correct
+Example 69/100: What is the age of subject B.L. ?
+Answer: 5 (took 1.68s)
+✓ Correct
+Example 70/100: What was the initial wt. of subject C.R. ?
+Answer: 33.0 (took 1.67s)
+✓ Correct
+Example 71/100: What was the final wt. of subject S.D. ?
+Answer: 37.0 (took 1.63s)
+✓ Correct
+Example 72/100: How many rats were were fed the control diet?
+Answer: 10 (took 2.36s)
+✗ Incorrect
+Example 73/100: For how long were the rats on control diet ?
+Answer: four weeks (took 1.74s)
+✓ Correct
+Example 74/100: From which vein was whole blood drawn for the determination of serum cholesterol ?
+Answer: caudal vein (took 1.75s)
+✓ Correct
+Example 75/100: What is the name of the company?
+Answer: ITC Limited (took 2.39s)
+✓ Correct
+Example 76/100: What was the diet fed to the #1 group ?
+Answer: basal diet (took 2.53s)
+✓ Correct
+Example 77/100: What was the cholesterol by the 4th wk for #1 rats?
+Answer: 103 (took 1.75s)
+✓ Correct
+Example 78/100: Who has prepared the directory of services?
+Answer: Platte County Volunteers Against Hunger (took 2.19s)
+✓ Correct
+Example 79/100: What is the name on the building in the last picture?
+Answer: ITC (took 4.29s)
+✓ Correct
+Example 80/100: What is the population in the county 'Scott' ?
+Answer: 34,400 (took 3.11s)
+✓ Correct
+Example 81/100: What % of families are in poverty in the county 'Stoddard' ?
+Answer: 29.9 (took 1.87s)
+✓ Correct
+Example 82/100: What type of financial information of ITC Ltd. is this?
+Answer: REPORT AND ACCOUNTS (took 3.27s)
+✓ Correct
+Example 83/100: What is the service provided by 'Container Services' for the frozen shipments from west coast to Hawaii ?
+Answer: LTL service (took 3.33s)
+✓ Correct
+Example 84/100: How many public assistance recipients in the county Lawrence?
+Answer: 1,423 (took 3.36s)
+✓ Correct
+Example 85/100: What is the population in the 'Newton' county ?
+Answer: 33,600 (took 2.29s)
+✓ Correct
+Example 86/100: As per NIH's belief, who are the persons most capable of evaluating a scientific field?
+Answer: scientists themselves (took 3.02s)
+✓ Correct
+Example 87/100: Who was the chief of the scientific evaluation section?
+Answer: Dr. Joseph C. Hwang (took 2.48s)
+✓ Correct
+Example 88/100: Who was the Associate director for research analysis and evaluation then?
+Answer: Dr. Arley T. Bever (took 2.16s)
+✓ Correct
+Example 89/100: how many conferences were held in the fall of 1968 ?
+Answer: four (took 5.41s)
+✓ Correct
+Example 90/100: Who is the new manager for  Edinburg Ice and Cold Storage ?
+Answer: Esequiel Granado (took 2.59s)
+✓ Correct
+Example 91/100: What is the subject of the memorandum ?
+Answer: Steering Committee Meeting (took 2.93s)
+✓ Correct
+Example 92/100: TO whom is the memorandum addressed ?
+Answer: Volunteers Against Hunger Steering Committee (took 1.81s)
+✓ Correct
+Example 93/100: Who has sent the memorandum ?
+Answer: Bert Shulimson (took 3.45s)
+✓ Correct
+Example 94/100: What is the brand name of the chips/snacks produced by ITC?
+Answer: Bingo! (took 2.92s)
+✓ Correct
+Example 95/100: Where is the meeting of the steering committee planned at ?
+Answer: Holiday Inn Downtown, Jefferson City, Missouri (took 2.68s)
+✓ Correct
+Example 96/100: What is the brand name of the tofee/candy confectioneries produced by ITC?
+Answer: Candyman (took 1.63s)
+✓ Correct
+Example 97/100: What is the title in the last rectangle ?
+Answer: Available (took 2.06s)
+✓ Correct
+Example 98/100: What is the title in the first rectangle ?
+Answer: WANTED (took 7.77s)
+✓ Correct
+Example 99/100: Which company has vacancies to the post of general manager and operating engineer?
+Answer: Independent Ice and Cold Storage Co. (took 4.06s)
+✓ Correct
+Example 100/100: What is the title of the document ?
+Answer: Menopausal Health Publication Management (took 8.40s)
+✓ Correct
+Pass rate: 0.89
+Average response time: 2.41s

@@ -1,0 +1,47 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.9.21",
+  "startedAt": "2025-05-16T02:20:12.243853Z",
+  "args": [
+    "--data_path",
+    "D:\\Microdoft_Doc\\522031910471\\VLM_DocVQA\\code\\data\\docvqa_100",
+    "--use_wandb"
+  ],
+  "program": "D:\\Microdoft_Doc\\522031910471\\VLM_DocVQA\\code\\docvqa\\baseline.py",
+  "codePath": "code\\docvqa\\baseline.py",
+  "git": {
+    "remote": "https://github.com/jasminejijiayi/VLM_DocVQA.git",
+    "commit": "2eb86c5bf4f30853ca6df11722a2433b38244421"
+  },
+  "email": "jasmine.jijiayi@gmail.com",
+  "root": "D:\\Microdoft_Doc\\522031910471\\VLM_DocVQA\\code\\docvqa",
+  "host": "Jazlynn",
+  "executable": "D:\\Software\\Anaconda3\\envs\\DL\\python.exe",
+  "codePathLocal": "baseline.py",
+  "cpu_count": 16,
+  "cpu_count_logical": 24,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "592323801088",
+      "used": "349106884608"
+    }
+  },
+  "memory": {
+    "total": "16873545728"
+  },
+  "cpu": {
+    "count": 16,
+    "countLogical": 24
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "memoryTotal": "8585740288",
+      "cudaCores": 3072,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.7"
+}

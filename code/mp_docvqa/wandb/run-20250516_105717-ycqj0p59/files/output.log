@@ -1,0 +1,306 @@
+Generating answers:  10%|█████▊                                                    | 10/100 [01:00<10:00,  6.67s/it]
+Example 1/100: Which brand does Tangles belong to?
+Answer: ITC Limited (took 3.02s)
+✗ Incorrect
+Example 2/100: In which month was the budget 'revised' ?
+Answer: September (took 8.09s)
+✗ Incorrect
+Example 3/100: Which brand does Yumitos belong to?
+Answer: ITC Limited (took 1.81s)
+✗ Incorrect
+Example 4/100: What is the monthly actual towards office rent?
+Answer: $1,200 (took 2.17s)
+✗ Incorrect
+Example 5/100: Which brand does Toffichoo belong to?
+Answer: ITC Limited (took 2.24s)
+✗ Incorrect
+Example 6/100: What is the first point under the expenditures ?
+Answer: September Budget Analysis (took 9.24s)
+✗ Incorrect
+Example 7/100: Which brand does the sub brand 'fresh' belong to?
+Answer: ITC (took 4.10s)
+✗ Incorrect
+Example 8/100: Which brand does the sub brand Cofitino belong to?
+Answer: ITC (took 2.84s)
+✗ Incorrect
+Example 9/100: What is the brand name of the 'Atta with multigrains'  shown in the picture?
+Answer: WILLS LIFESTYLE (took 4.38s)
+✗ Incorrect
+Example 10/100: What is the name of the company?
+Answer: ITC Limited (took 3.66s)
+✓ Correct
+Example 11/100: What is the brand name of the noodles produced by ITC?
+Answer: Noodles (took 1.82s)
+✗ Incorrect
+Example 12/100: Which is 'India's most premium, sugarfree power mints'?
+Answer: Mentos (took 1.88s)
+✗ Incorrect
+Example 13/100: Which ITC Brand has 'Liquid Crystal Freezing Technology'?
+Answer: Wills Classic (took 2.30s)
+✗ Incorrect
+Example 14/100: What is the name of the company?
+Answer: ITC Limited (took 1.79s)
+✓ Correct
+Example 15/100: What is the brand name for ITC biscuit category?
+Answer: Chhota Bheem (took 2.49s)
+✗ Incorrect
+Example 16/100: Which is the Sunfeast biscuIt sub brand,  first from top?
+Answer: ITC (took 1.68s)
+✗ Incorrect
+Example 17/100: Which is the Sunfeast biscuIt sub brand, placed first at the bottom?
+Answer: Biscuit (took 1.72s)
+✗ Incorrect
+Example 18/100: Who has accepted the assignment?
+Answer: Carol A. Tozzi, Ph.D. (took 1.65s)
+✓ Correct
+Example 19/100: When did Carol A. Tozzi, Ph.D. accepted the assignment ?
+Answer: July 26, 2000 (took 5.37s)
+✓ Correct
+Example 20/100: What is the brand name of the first set of personal care products advertised?
+Answer: Dabur (took 1.83s)
+✗ Incorrect
+Example 21/100: What is the brand name of the second set of personal care products advertised?
+Answer: L'Oreal (took 7.40s)
+✗ Incorrect
+Example 22/100: Which range of products is 'designed to make consumers look and feel young'?
+Answer: ITC (took 1.61s)
+✗ Incorrect
+Example 23/100: Which range of products includes 'fine fragrances'?
+Answer: ITC (took 1.79s)
+✗ Incorrect
+Example 24/100: What is the Page Number?
+Answer: 34 (took 3.10s)
+✓ Correct
+Example 25/100: In which sea did the sea bird wreck occur ?
+Answer: Irish Sea (took 2.03s)
+✓ Correct
+Example 26/100: When did the sea bird wreck occur ?
+Answer: AUTUMN 1969 (took 2.16s)
+✓ Correct
+Example 27/100: Is Esterified estrogen effective in treating Hot flushes vs Placebo?
+Answer: Yes (took 4.54s)
+✓ Correct
+Example 28/100: What is the name of the council that has made the publication ?
+Answer: THE NATURAL ENVIRONMENT RESEARCH COUNCIL (took 3.16s)
+✓ Correct
+Example 29/100: What is the No. of the population in Henry county?
+Answer: 19,000 (took 2.45s)
+✓ Correct
+Example 30/100: What is the year of publication ?
+Answer: 1971 (took 2.12s)
+✓ Correct
+Example 31/100: What is the name of the company?
+Answer: ITC Limited (took 7.62s)
+✓ Correct
+Example 32/100: What is the No. of the population in Johnson county?
+Answer: 34,500 (took 1.90s)
+✓ Correct
+Example 33/100: What is 'SKU'?
+Answer: johnplayers jeans (took 1.96s)
+✗ Incorrect
+Example 34/100: Does the image show the picture of a bird or that of a fish ?
+Answer: bird (took 2.06s)
+✓ Correct
+Example 35/100: What is the title of the chart?
+Answer: Sargasso Sea Temperature (took 1.46s)
+✓ Correct
+Example 36/100: Which company name is mentioned at the bottom?
+Answer: ExxonMobil (took 1.41s)
+✓ Correct
+Example 37/100: What is the name of the person on the from ?
+Answer: Adrienne Pitrelli (took 1.19s)
+✗ Incorrect
+Example 38/100: Which brand has 10x Vitamin E in the picture?
+Answer: John Players (took 1.88s)
+✗ Incorrect
+Example 39/100: What is John's Tel No ?
+Answer: 0 (took 1.24s)
+✓ Correct
+Example 40/100: What is name of the organization in the seal stamped on the page?
+Answer: The Natural Environment Research Council (took 4.98s)
+✓ Correct
+Example 41/100: What is the ' series' and 'no' of publication ?
+Answer: C 4 (took 4.45s)
+✗ Incorrect
+Example 42/100: What is the percentage of families in poverty in Morgan county?
+Answer: 25.9 (took 4.07s)
+✓ Correct
+Example 43/100: how much order is to be shipped to hong kong
+Answer: 18 million (took 1.93s)
+✓ Correct
+Example 44/100: full form of PM super lights
+Answer: Philip Morris Super Lights (took 2.02s)
+✓ Correct
+Example 45/100: What is the No. of Public Assistance Recipients in Johnson County?
+Answer: 690 (took 4.26s)
+✓ Correct
+Example 46/100: What kind of a communication/letter  is this?
+Answer: INTER-OFFICE CORRESPONDENCE (took 2.50s)
+✓ Correct
+Example 47/100: What is the City and state for Point of Delivery?
+Answer: Raymond Pharris (took 3.28s)
+✗ Incorrect
+Example 48/100: What is the percentage of families in Poverty in Henry county?
+Answer: 21.0 (took 4.21s)
+✓ Correct
+Example 49/100: who was writing this letter to  Dr.richard carchman?
+Answer: Maria Shulleeta (took 2.60s)
+✓ Correct
+Example 50/100: What is the page number?
+Answer: 2 (took 4.94s)
+✓ Correct
+Example 51/100: What is the heading numbered 'IV' ?
+Answer: INTER AND INTRA FEDERAL GOVERNMENT COORDINATION (took 5.39s)
+✓ Correct
+Example 52/100: Who is the IARW Chairman?
+Answer: C. T. Hogan & Company (took 2.46s)
+✗ Incorrect
+Example 53/100: Who is inviting ?
+Answer: MEXICO '72 (took 3.56s)
+✗ Incorrect
+Example 54/100: What is the full form of IUNS ?
+Answer: International Union of Nutritional Sciences (took 5.38s)
+✓ Correct
+Example 55/100: When was exhibits Open time?
+Answer: Noon to 4:00 p.m. (took 1.91s)
+✗ Incorrect
+Example 56/100: What is the date of the congress ?
+Answer: '72 (took 3.45s)
+✗ Incorrect
+Example 57/100: Who made "Opening Remarks" ?
+Answer: IARW Board of Directors (took 1.94s)
+✗ Incorrect
+Example 58/100: What is the name of the Congress ?
+Answer: X Congreso Internacional de Nutricion (took 3.12s)
+✗ Incorrect
+Example 59/100: Which government is responsible for sponsoring the Congress ?
+Answer: MEXICO (took 5.03s)
+✗ Incorrect
+Example 60/100: what was the event on time period 9:53 to 10.08 a.m. ?
+Answer: Registration Desk Opens (took 1.87s)
+✗ Incorrect
+Example 61/100: What are the official languages of communication of the Congress ?
+Answer: Spanish (took 9.00s)
+✓ Correct
+Example 62/100: What was the final event ?
+Answer: Welcoming Reception (took 1.81s)
+✗ Incorrect
+Example 63/100: In which city will the Congress be held?
+Answer: MEXICO (took 3.24s)
+✓ Correct
+Example 64/100: Who was the Presiding person of 'OPENING GENERAL SESSION'?
+Answer: IARW Board of Directors (took 1.66s)
+✗ Incorrect
+Example 65/100: What is the issue date?
+Answer: February 7, 1994 (took 1.81s)
+✓ Correct
+Example 66/100: Which company's name is in the letterhead?
+Answer: Brown & Williamson Tobacco Corporation (took 2.84s)
+✓ Correct
+Example 67/100: What is the status of request for art diesing approval of banded papers?
+Answer: approved (took 1.87s)
+✓ Correct
+Example 68/100: How much Celando is needed?
+Answer: 546 (took 2.26s)
+✗ Incorrect
+Example 69/100: What is the material number of quaser?
+Answer: MT-778 (took 2.01s)
+✗ Incorrect
+Example 70/100: At what temperature should all ingredients be mixed?
+Answer: 180 (took 2.31s)
+✗ Incorrect
+Example 71/100: What date is written on this document?
+Answer: 4-30-92 (took 1.96s)
+✓ Correct
+Example 72/100: which is the root node in the chart?
+Answer: The Samuel Roberts Noble Foundation, Inc. (took 3.91s)
+✗ Incorrect
+Example 73/100: Where did the second trial run of the "daubing dandy" take place?
+Answer: at the University of Maine (took 3.17s)
+✗ Incorrect
+Example 74/100: Which laboratory has experience in acetylation of cellulose webs?
+Answer: Forest Products Laboratory (took 2.87s)
+✓ Correct
+Example 75/100: What is described in the patent specification from James River?
+Answer: their proprietary cellulose acetate web (took 2.48s)
+✓ Correct
+Example 76/100: Under which department 'Protein Section' is organized?
+Answer: Department of Biochemistry (took 3.76s)
+✗ Incorrect
+Example 77/100: Under which department 'Stockroom' is organized ?
+Answer: Department of Biochemistry (took 3.89s)
+✗ Incorrect
+Example 78/100: Which brand's gold tipped version is proposed under "Brand Extensions"?
+Answer: Liquorice (took 2.10s)
+✗ Incorrect
+Example 79/100: What is the percentage of single brand users in the franchise?
+Answer: 84.0% (took 1.95s)
+✗ Incorrect
+Example 80/100: Short version of which brand is proposed?
+Answer: 499150499 (took 4.14s)
+✗ Incorrect
+Example 81/100: Which is the Fiscal Year End?
+Answer: 14 (took 2.00s)
+✗ Incorrect
+Example 82/100: What is the index of share of the 21-25 segment?
+Answer: (17) (took 1.56s)
+✗ Incorrect
+Example 83/100: How much is the amount from 'Trusts' in $?
+Answer: $2 million (took 2.25s)
+✗ Incorrect
+Example 84/100: Who is the R&D customer for the project  "Water on Tobacco" ?
+Answer: T. F. Riehl (took 2.68s)
+✗ Incorrect
+Example 85/100: Who is the project leader for the last project listed in the table?
+Answer: M. P. Mazza (took 2.40s)
+✗ Incorrect
+Example 86/100: What is the priority of the first project?
+Answer: User issues on Laboratory quality and LIMS (took 2.11s)
+✗ Incorrect
+Example 87/100: How much is the total income ?
+Answer: $2 million (took 1.96s)
+✗ Incorrect
+Example 88/100: What is the duration for the project,  "Replace Flex Tester" ?
+Answer: 3 months (took 3.02s)
+✗ Incorrect
+Example 89/100: Which Expenditure head is having the amount '610,775' ?
+Answer: The Latin American Division (took 2.23s)
+✗ Incorrect
+Example 90/100: How much is the 'Excess of expenditures over income' ?
+Answer: $ 1,000,000 (took 2.16s)
+✗ Incorrect
+Example 91/100: What is the title of this page?
+Answer: KOOL KS (took 3.72s)
+✓ Correct
+Example 92/100: What  was found to be superior to salem ks?
+Answer: KOOL KS (took 2.17s)
+✓ Correct
+Example 93/100: which reference results are shown in this chart?
+Answer: 1R4F REFERENCE RESULTS (took 2.18s)
+✓ Correct
+Example 94/100: what does the chart explain about?
+Answer: 1R4F REFERENCE RESULTS (took 2.77s)
+✗ Incorrect
+Example 95/100: what is the no of cut tobacco?
+Answer: MT-778 (took 2.78s)
+✓ Correct
+Example 96/100: What is the description?
+Answer: CASED, REDR BUR FOR BEST 327391 (took 1.78s)
+✓ Correct
+Example 97/100: What is the LBS at 12.5% for WB1B?
+Answer: 1,228.2 (took 1.65s)
+✓ Correct
+Example 98/100: What is the yield M.C % for MGC-817?
+Answer: 28.0 (took 1.60s)
+✓ Correct
+Example 99/100: What is BRC ?
+Answer: Joyce Bagby (took 2.37s)
+✗ Incorrect
+Example 100/100: what is the heading of this page?
+Answer: Consumer Dynamics PALL MALL (took 1.55s)
+✗ Incorrect
+Pass rate: 0.43
+Average response time: 2.93s
+Used correct page rate: 0.0
+Accuracy when using correct page: 0
+Accuracy when using incorrect page: 0.43

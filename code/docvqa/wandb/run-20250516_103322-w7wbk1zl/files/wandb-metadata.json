@@ -1,0 +1,22 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.9.21",
+  "startedAt": "2025-05-16T02:33:22.973830Z",
+  "args": [
+    "--eval_only",
+    "--output_path",
+    "./results/docvqa_100_results.json",
+    "--use_wandb"
+  ],
+  "program": "D:\\Microdoft_Doc\\522031910471\\VLM_DocVQA\\code\\docvqa\\baseline.py",
+  "codePath": "code\\docvqa\\baseline.py",
+  "git": {
+    "remote": "https://github.com/jasminejijiayi/VLM_DocVQA.git",
+    "commit": "2eb86c5bf4f30853ca6df11722a2433b38244421"
+  },
+  "email": "jasmine.jijiayi@gmail.com",
+  "root": "D:\\Microdoft_Doc\\522031910471\\VLM_DocVQA\\code\\docvqa",
+  "host": "Jazlynn",
+  "executable": "D:\\Software\\Anaconda3\\envs\\DL\\python.exe",
+  "codePathLocal": "baseline.py"
+}

@@ -1,0 +1,16 @@
+{"time":"2025-05-16T10:20:12.2459639+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"D:\\Microdoft_Doc\\522031910471\\VLM_DocVQA\\code\\docvqa\\wandb\\run-20250516_102012-reb6b992\\logs\\debug-core.log"}
+{"time":"2025-05-16T10:20:13.1650219+08:00","level":"INFO","msg":"created new stream","id":"reb6b992"}
+{"time":"2025-05-16T10:20:13.1650219+08:00","level":"INFO","msg":"stream: started","id":"reb6b992"}
+{"time":"2025-05-16T10:20:13.1650219+08:00","level":"INFO","msg":"handler: started","stream_id":"reb6b992"}
+{"time":"2025-05-16T10:20:13.1650219+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"reb6b992"}
+{"time":"2025-05-16T10:20:13.1650219+08:00","level":"INFO","msg":"sender: started","stream_id":"reb6b992"}
+{"time":"2025-05-16T10:20:13.6743771+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-16T10:24:22.3004144+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-16T10:24:22.3014119+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-16T10:24:23.3079095+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.0015122},{"desc":"uploading wandb-summary.json","runtime_seconds":0.0005119}],"total_operations":2}}
+{"time":"2025-05-16T10:24:24.1643374+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-16T10:24:25.3688988+08:00","level":"INFO","msg":"stream: closing","id":"reb6b992"}
+{"time":"2025-05-16T10:24:25.3688988+08:00","level":"INFO","msg":"handler: closed","stream_id":"reb6b992"}
+{"time":"2025-05-16T10:24:25.3688988+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"reb6b992"}
+{"time":"2025-05-16T10:24:25.3695698+08:00","level":"INFO","msg":"sender: closed","stream_id":"reb6b992"}
+{"time":"2025-05-16T10:24:25.3695698+08:00","level":"INFO","msg":"stream: closed","id":"reb6b992"}

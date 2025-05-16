@@ -1,0 +1,17 @@
+{"time":"2025-05-16T11:09:40.7908344+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"D:\\Microdoft_Doc\\522031910471\\VLM_DocVQA\\wandb\\run-20250516_110940-ihxn6g7j\\logs\\debug-core.log"}
+{"time":"2025-05-16T11:09:41.9362397+08:00","level":"INFO","msg":"created new stream","id":"ihxn6g7j"}
+{"time":"2025-05-16T11:09:41.9362397+08:00","level":"INFO","msg":"stream: started","id":"ihxn6g7j"}
+{"time":"2025-05-16T11:09:41.9367459+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ihxn6g7j"}
+{"time":"2025-05-16T11:09:41.9367459+08:00","level":"INFO","msg":"sender: started","stream_id":"ihxn6g7j"}
+{"time":"2025-05-16T11:09:41.9367459+08:00","level":"INFO","msg":"handler: started","stream_id":"ihxn6g7j"}
+{"time":"2025-05-16T11:09:42.7036834+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-16T11:11:22.7543767+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.180.141.173:59509->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-05-16T11:15:10.2240687+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-16T11:15:10.2240687+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-16T11:15:11.2399967+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.2220402,"progress":"14.1KB/14.1KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.2220402,"progress":"3.7KB/3.7KB"},{"desc":"uploading history steps 201-211, summary, console lines 393-415","runtime_seconds":0.1622672}],"total_operations":3}}
+{"time":"2025-05-16T11:15:11.7436078+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-16T11:15:13.0583008+08:00","level":"INFO","msg":"stream: closing","id":"ihxn6g7j"}
+{"time":"2025-05-16T11:15:13.0583008+08:00","level":"INFO","msg":"handler: closed","stream_id":"ihxn6g7j"}
+{"time":"2025-05-16T11:15:13.0583008+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ihxn6g7j"}
+{"time":"2025-05-16T11:15:13.0583008+08:00","level":"INFO","msg":"sender: closed","stream_id":"ihxn6g7j"}
+{"time":"2025-05-16T11:15:13.0583008+08:00","level":"INFO","msg":"stream: closed","id":"ihxn6g7j"}
