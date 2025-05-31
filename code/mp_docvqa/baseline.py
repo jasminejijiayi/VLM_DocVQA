@@ -157,7 +157,7 @@ def main(args):
                 
             # Log additional MP-DocVQA specific info
             answer_page_idx = example.get('answer_page_idx', None)
-            used_page_idx = 1  # Since baseline uses the first image
+            used_page_idx = "1"  # Since baseline uses the first image
             used_correct_page = (answer_page_idx == used_page_idx) if answer_page_idx is not None else False
             
             results.append({

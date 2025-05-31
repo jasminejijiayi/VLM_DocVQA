@@ -29,6 +29,7 @@
 实验代码基于以下核心函数构建：
 
 - **load_data**: 加载数据集
+
   ```python
   def load_data(path):
       '''
@@ -43,6 +44,7 @@
   ```
 
 - **preprocess_image**: 图像预处理
+
   ```python
   def preprocess_image(example):
       '''
@@ -58,6 +60,7 @@
   ```
 
 - **generate_answer**: 生成答案
+
   ```python
   def generate_answer(example):
       '''
@@ -97,6 +100,7 @@
   ```
 
 - **evaluate_results**: 评估结果
+
   ```python
   def evaluate_results(results):
       '''
@@ -123,6 +127,7 @@
 #### 3.2.2 MP-DocVQA实验
 
 - **baseline**: 始终使用第一张图像
+
   ```python
   def preprocess_image(example):
       # 选择第一张图像
@@ -131,6 +136,7 @@
   ```
 
 - **methodx (正确页面选择)**: 使用answer_page_idx选择正确的图像页面
+
   ```python
   def preprocess_image(example):
       # 获取答案页面索引
@@ -145,17 +151,17 @@
       
       # 确保索引有效
       if answer_page_idx < 0 or answer_page_idx > 19:
-          print(f"Warning: Invalid answer_page_idx {answer_page_idx}, using default image 1")
+          print(f"Warning: answer_page_idx out of range: {answer_page_idx}, using default image 1")
           answer_page_idx = 0
       
-      # 转换为1-based索引用于图像键
-      image_idx = answer_page_idx + 1
+      # 构建图像键
+      image_idx = answer_page_idx + 1  # 从1开始
       image_key = f"image_{image_idx}"
       
-      # 检查图像键是否存在
+      # 获取正确的图像
       if image_key in example and example[image_key] is not None:
           image = example[image_key]
-          print(f"Using image {image_idx} (answer page)")
+          print(f"Using correct image {image_key}")
       else:
           # 如果正确图像不可用，回退到第一张图像
           image = example["image_1"]
@@ -164,20 +170,97 @@
       return image
   ```
 
+- **OCR+RAG**: 使用OCR提取文本并基于BM25检索选择最相关图像
+
+  ```python
+  def preprocess_image(example):
+      # 收集所有图像
+      images = []
+      for i in range(1, 21):
+          img_key = f"image_{i}"
+          if img_key in example and example[img_key] is not None:
+              images.append((i, example[img_key]))
+      
+      # 获取查询
+      query = example['question']
+      
+      # [1] 处理多张PNG图像
+      processed_images = []
+      
+      # [2] 使用OCR提取文本
+      image_texts = []
+      
+      for idx, img in images:
+          # 转换为灰度图像
+          img_gray = img.convert('L')
+          processed_images.append((idx, img_gray))
+          
+          # 使用pytesseract提取文本
+          text = extract_text_with_pytesseract(img_gray)
+          
+          # [3] 构建文本块（每图一段）
+          if text.strip():
+              image_texts.append({
+                  'id': str(idx),
+                  'text': text,
+                  'image': img_gray
+              })
+      
+      # [4] 使用BM25检索相关文档
+      if image_texts:
+          # 为BM25索引创建文档
+          documents = [{'id': doc['id'], 'text': doc['text']} for doc in image_texts]
+          
+          # 设置BM25索引并检索相关文档
+          index_dir = setup_bm25_index(documents)
+          retrieved_docs = retrieve_with_bm25(query, index_dir)
+          
+          if retrieved_docs:
+              # 获取检索到的顶部图像
+              top_images = []
+              rag_texts = []
+              
+              for doc in retrieved_docs:
+                  doc_id = int(doc['id'])
+                  # 找到对应的图像
+                  for idx, img in processed_images:
+                      if idx == doc_id:
+                          top_images.append(img)
+                          break
+                  # 添加文本到RAG上下文
+                  rag_texts.append(doc['content'])
+              
+              # [5] 拼接RAG上下文
+              rag_context = "\n\n".join(rag_texts)
+              
+              # 拼接顶部图像
+              # 使用更长边进行拼接以创建更平衡的输出
+              # ...
+              
+              return {
+                  'image': final_image,
+                  'rag_context': rag_context
+              }
+  ```
+
 ## 4. 实验结果与分析
 
 ### 4.1 DocVQA实验结果
 
 | 策略 | 准确率 (Pass Rate) | 说明 |
 | --- | --- | --- |
-| baseline | 0.89 | 使用Qwen2.5-VL-3B-Instruct模型直接处理单页文档图像 |
+| baseline | 0.88 | 使用Qwen2.5-VL-3B-Instruct模型直接处理单页文档图像 |
+| methodx_sharpness | 0.89 | 使用Qwen2.5-VL-3B-Instruct模型处理锐化后的单页文档图像 |
+| methodx_greyscale | 0.83 | 使用Qwen2.5-VL-3B-Instruct模型处理灰度化的单页文档图像 |
 
 ### 4.2 MP-DocVQA实验结果
 
 | 策略 | 准确率 (Pass Rate) | 正确页面使用率 | 说明 |
 | --- | --- | --- | --- |
-| baseline | 0.43 | 0.0 | 始终使用第一张图像 |
-| methodx | 0.90 | 1.0 | 使用answer_page_idx选择正确的图像页面 |
+| baseline | 0.43 |  | 始终使用第一张图像 |
+| methodx| 0.47 |  | 选取前5张存在的文档拼接输入 |
+| methodx | 0.91 | 1.0 | 使用answer_page_idx选择正确的图像页面 |
+| ocr_rag | 0.62 |  | 使用OCR+RAG选择正确的图像页面 |
 
 ### 4.3 结果分析
 
@@ -214,11 +297,16 @@ Qwen2.5-VL-3B-Instruct模型在DocVQA任务上表现出色，基线模型已达�
 
 1. **多图像拼接/增强**：探索将多个相关页面拼接或融合的方法，使模型能够同时获取跨页信息。
 
-2. **OCR处理+RAG选取图像**：利用OCR提取文本，结合检索增强生成(RAG)技术，智能选择最相关的页面。
+2. **OCR处理+RAG选取图像**：利用OCR提取文本，结合检索增强生成(RAG)技术，智能选择最相关的页面。我们已经实现了这一方法，但仍有改进空间：
+   - 优化OCR质量：使用更先进的OCR引擎或预处理技术
+   - 改进检索算法：尝试不同的检索模型，如Dense Retrieval或混合检索
+   - 优化文本分块策略：探索更细粒度的文本分块方法
 
-3. **Prompt优化**：设计更有效的提示词，引导模型关注文档中的关键信息。
+3. **Prompt优化**：设计更有效的提示词，引导模型关注文档中的关键信息。特别是在RAG场景中，优化提示词以更好地利用检索到的上下文。
 
 4. **图像预处理增强**：针对文档特点，开发专门的图像预处理技术，如表格结构增强、文本区域高亮等。
+
+5. **混合检索策略**：结合基于文本的检索和基于图像特征的检索，更全面地捕捉文档的多模态信息。
 
 ## 6. 运行说明
 
@@ -238,8 +326,11 @@ python code/docvqa/methodx.py --data_path code/data/docvqa_100 --use_wandb
 # 运行基线模型
 python code/mp_docvqa/baseline.py --data_path code/data/mp_docvqa_100 --use_wandb
 
-# 运行优化策略
+# 运行正确页面选择策略
 python code/mp_docvqa/methodx.py --data_path code/data/mp_docvqa_100 --use_wandb
+
+# 运行OCR+RAG策略
+python code/mp_docvqa/OCR+RAG.py --data_path code/data/mp_docvqa_100 --use_wandb
 ```
 
 ## 7. 项目结构
@@ -258,8 +349,10 @@ code/
 ├── mp_docvqa/            # MP-DocVQA实验代码
 │   ├── results/          # MP-DocVQA实验结果
 │   │   ├── baseline.json # 基线模型结果
-│   │   └── methodx.json  # 优化策略结果
+│   │   ├── methodx.json  # 正确页面选择策略结果
+│   │   └── ocr_rag.json   # OCR+RAG策略结果
 │   ├── baseline.py       # 基线模型实现
-│   └── methodx.py        # 优化策略实现
+│   ├── methodx.py        # 正确页面选择策略实现
+│   └── OCR+RAG.py        # OCR+RAG策略实现
 └── README.md             # 本报告
 ```

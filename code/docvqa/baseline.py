@@ -100,8 +100,8 @@ def evaluate_results(results):
     # Calculate the score
     score = 0
     for result in results:
-        lower_answers = [answer.lower() for answer in result["answers"]]
-        if result["generation"].lower() in lower_answers:
+        lower_answers = [answer.lower().strip() for answer in result["answers"]]
+        if result["generation"].lower().strip() in lower_answers:
             score += 1
     return round(score / len(results), 2)
 
@@ -146,7 +146,7 @@ def main(args):
             print(f"Answer: {answer} (took {elapsed:.2f}s)")
             
             # Check if answer is correct
-            is_correct = answer.lower() in [a.lower() for a in example['answers']]
+            is_correct = answer.lower().strip() in [a.lower().strip() for a in example['answers']]
             if is_correct:
                 correct_count += 1
                 print("✓ Correct")
